@@ -1,0 +1,6 @@
+{
+  "name": "Bharti ITI",
+  "description": "Official website of Bharti ITI - Premier NCVT & SCVT Affiliated Industrial Training Institute offering technical trades, practical workshops, and career placements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

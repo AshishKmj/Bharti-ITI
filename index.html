@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bharti ITI | Industrial Training Institute (NCVT &amp; SCVT Affiliated)</title>
+    <meta name="description" content="Official website of Bharti ITI - Premier NCVT &amp; SCVT Affiliated Industrial Training Institute offering technical trades, practical workshops, and career placements." />
+    <meta property="og:title" content="Bharti ITI | Industrial Training Institute" />
+    <meta property="og:description" content="Official website of Bharti ITI - Premier NCVT &amp; SCVT Affiliated Industrial Training Institute offering technical trades, practical workshops, and career placements." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Fix for environments where window.fetch has only a getter without a setter
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          var currentFetch = typeof originalFetch === 'function' ? originalFetch.bind(window) : originalFetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return currentFetch;
+            },
+            set: function(val) {
+              currentFetch = val;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (_) {}
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#F5F7FA] text-[#222B3A] font-['Poppins',sans-serif] antialiased selection:bg-[#F28C28] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
